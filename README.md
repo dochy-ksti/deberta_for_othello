@@ -6,7 +6,7 @@
 
  Thanks to the optimizations, the size of DeBERTa became 43 MB. We used transformers DeBERTa V2 model with the "x-small" configulation of DeBERTa V3. It's about 400 MB originally, and became 10 times smaller by the optimizations.
 
- DeBERTa has relative position embeddings, but we thought absolute position embeddings are also needed, so we added it. We haven't tried this without it, so the contribution of it is uncertain.
+ DeBERTa has relative position embeddings, but we thought absolute position embeddings are also needed, so we added it. We haven't tried this without absolute position embeddings, so the contribution is uncertain.
 
  Result: The DeBERTa model, after 3 hours of training, exhibited performance equivalent to a [CNN model](https://github.com/dochy-ksti/rust_general_alphazero_othello) trained for 43 minutes.
 
