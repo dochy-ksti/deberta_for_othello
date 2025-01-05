@@ -10,4 +10,4 @@
 
  Result: The DeBERTa model, after 3 hours of training, exhibited performance equivalent to a [CNN model](https://github.com/dochy-ksti/rust_general_alphazero_othello) trained for 43 minutes.
 
- If you want to try this yourself, "cargo build --release" and "python -m python main.py release". This requires pytorch and CUDA.
+ If you want to try this yourself, "cargo build --release" and "python -m python.main release". This requires pytorch and CUDA.
